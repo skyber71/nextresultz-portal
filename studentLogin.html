@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextResultz | Student login</title>
+    <link rel="stylesheet" href="./studentLogin.css">
+    <link rel="icon" href="./img/favicon.ico">
+    <script src="https://kit.fontawesome.com/552542671f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <i class="fa-solid fa-house" onclick="openPage('./index.html')"></i>
+        <div class="headin1">
+            Welcome to NextResultz !
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="info">
+            </div>
+            <div class="form">
+                <div class="headin">
+                    <strong> Student Login</strong>
+                </div>
+                <div class="register">
+                    Don't have an account? <a href="./studentRegistration.html">Register here</a> it takes only few moments.
+
+                </div>
+                <div class="form-small">
+                    <form action="/login" method="post">
+                        <div class="text-filed">
+                            <input type="email" name="username" required>
+                            <span></span>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="text-filed">
+                            <input type="password" name="password" required>
+                            <span></span>
+                            <label for="">Password</label>
+                        </div>
+                        <input type="submit" value="Login">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="./studentLogin.js"></script>
+</body>
+
+</html>
